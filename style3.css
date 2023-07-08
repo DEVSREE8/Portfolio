@@ -1,0 +1,155 @@
+
+body {margin:0;}
+a{  color:#323336;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:50px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;   
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+}
+
+
+#headbar{
+    position:fixed;
+    overflow:hidden;
+    top:0px;
+    width:100%;
+    height:50px;
+    padding:8px;
+    box-shadow: 0px 2px 1px 0px #2f2fcf;
+    background-color:#ffffff;
+    display: block;   
+    z-index: 3;
+}
+#logo{
+    height:38px;
+    width:38px;
+    background-image: url(Images/29647600.png);
+    background-size: contain;
+    float:left;
+    position:relative;
+}
+
+#name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #323336;
+    font-size: 18px;
+    float:left;
+    position:relative;
+    line-height:0dvw;
+    left:6px;
+    margin-top: 19px;
+}
+#name>a:hover{
+      color:#7074cb ;
+}
+
+#navbar{
+    position:relative;
+    top:4px;
+    left:50px;
+    width:420px;
+}
+#navbar>ul>li{
+    float:left;
+    margin-right:25px;
+    list-style: none;
+    color:#26282b;
+    line-height: 0.85px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar>ul>li>a:hover{
+    float:left;
+    list-style: none;
+    color:#888de8;
+    line-height: 0.85px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#active{
+    color:#7074cb;
+}
+
+#secOne{
+    width:200px;
+    border-right:grey solid 3px;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 20px;
+    height:50cqmax;
+    position: fixed;
+    background-color:rgb(231, 231, 231)
+}
+#container{
+    display:flex;
+    flex-direction: row;
+}
+#secOne>p{
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#secTwo{
+    width:auto;
+    padding-top: 60px;
+    padding-left: 60px;
+    position:absolute;
+    left:270px
+}
+#secTwo>h1{
+    color:#6b52ae;
+}
+#dateTime{
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#info{
+    height:80px;
+    width:600px;
+}
+#mypic{
+    height:80px;
+    width:65px;
+    border: greenyellow solid 1px;
+    background-image: url("Images/SREERAJ\ RAJEEV.jpg");
+    background-size: 100% 100%;
+    border-radius:80PX ;
+    float: left;
+}
+#sree{
+    color: #6b52ae;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    position: relative;
+    left:22px;
+    top:15px;
+}
+#desgn{
+    position:absolute;
+    top:3px;
+    left:65px;
+    font-size:15px ;
+}
+
+#desc>p{
+    padding:18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#toolsUsed{
+    border:#7074cb solid 4px;
+    padding-left:15px;
+    border-radius: 8px;
+    background-color:rgb(167, 167, 167);
+    color:white;
+    font-size: 20px;
+}
+#toolsUsed>ul>li{
+    margin-bottom: 8px;
+}
+

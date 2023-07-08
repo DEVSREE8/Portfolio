@@ -1,0 +1,7 @@
+<h1>Header buttons</h1>
+<p>Now that we know how to customize the look of our headers, let's make them sentient! Actually perhaps that's ambitious, let's just make them able to respond to our touches in very well defined ways.</p>
+<h2>Adding a button to the header</h2>
+<p>The most common way to interact with a header is by tapping on a button either to the left or the right of the title. Let's add a button to the right side of the header (one of the most difficult places to touch on your entire screen, depending on finger and phone size, but also a normal place to put buttons.</p>
+<h2>Overriding the back button</h2>
+<p>The back button will be rendered automatically in a stack navigator whenever it is possible for the user to go back from their current screen — in other words, the back button will be rendered whenever there is more than one screen in the stack.
+Generally, this is what you want. But it's possible that in some circumstances that you want to customize the back button more than you can through the options mentioned above, in which case you can set the headerLeft option to a React Element that will be rendered, just as we did with headerRight. Alternatively, the headerLeft option also accepts a React Component, which can be used, for example, for overriding the onPress behavior of the back button. Read more about this in the api reference.</p>
